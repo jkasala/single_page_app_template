@@ -16,6 +16,8 @@
     color: #ff1482; }
   .main-nav li :active, .main-nav li :focus {
     background-color: transparent !important; }
+  .main-nav .active {
+    background-color: black; }
 
 .content {
   color: #f0f0f0;
@@ -25,6 +27,25 @@
   .content a {
     color: #ff1482; }
   .content p {
-    padding: 20px; }
+    padding: 20px 0 0 0; }
+
+.dark-background {
+  background-color: rgba(0, 0, 0, 0.8);
+  max-width: 600px;
+  border: 1px solid rgba(255, 20, 130, 0.6);
+  padding: 20px; }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #f0f0f0;
+  border-top: 1px solid #161616;
+  width: 100%; }
+  footer a {
+    color: black;
+    text-decoration: underline; }
+  footer li :hover {
+    color: #ff1482; }
 
 /*# sourceMappingURL=styles.css.map */

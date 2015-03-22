@@ -27,6 +27,10 @@ $link-colour: rgb(255,20,130);
 		background-color:transparent !important;
 	} 
 
+	.active {
+		background-color: black;
+	}
+
 }
 
 
@@ -41,6 +45,31 @@ $link-colour: rgb(255,20,130);
 	}
 
 	p {
-		padding:20px;
+		padding:20px 0 0 0;
+	}
+}
+
+.dark-background {
+	background-color: rgba(0,0,0,0.8);
+	max-width: 600px;
+	border:1px solid rgba(255,20,130, 0.6);
+	padding:20px;
+}
+
+footer {
+	position:fixed;
+	bottom:0;
+	left:0;
+	background-color:$off-white;
+	border-top:1px solid rgb(22,22,22);
+	width:100%;
+
+	a {
+		color: black;
+		text-decoration: underline;
+	}
+
+	li :hover {
+		color: $link-colour;
 	}
 }

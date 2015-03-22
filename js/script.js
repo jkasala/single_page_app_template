@@ -15,21 +15,18 @@
 				controller  : 'aboutController'
 			})
 
-			.when('/contact', {
+			.when('/usage', {
 				templateUrl : 'pages/contact.html',
-				controller  : 'contactController'
+				controller  : 'usageController'
 			});
 	});
 
-	// create the controller and inject Angular's $scope
-	singlePageTemplate.controller('mainController', function($scope, $sce) {
 
+	singlePageTemplate.controller('mainController', function() {
 	});
 
-	singlePageTemplate.controller('aboutController', function($scope) {
-		$scope.message = 'about';
+	singlePageTemplate.controller('aboutController', function() {
 	});
 
-	singlePageTemplate.controller('contactController', function($scope) {
-		$scope.message = 'contact';
+	singlePageTemplate.controller('usageController', function() {
 	});
