@@ -1,0 +1,30 @@
+.background {
+  width: 100%;
+  height: 800px;
+  max-width: 2000px;
+  background-image: url("../images/loading_spinner.gif");
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.main-nav {
+  background-color: rgba(150, 150, 150, 0.18);
+  font-size: 13pt; }
+  .main-nav a {
+    color: #f0f0f0; }
+  .main-nav li :hover {
+    background-color: transparent !important;
+    color: #ff1482; }
+  .main-nav li :active, .main-nav li :focus {
+    background-color: transparent !important; }
+
+.content {
+  color: #f0f0f0;
+  padding: 50px 10px 50px 10px;
+  font-size: 13pt;
+  display: none; }
+  .content a {
+    color: #ff1482; }
+  .content p {
+    padding: 20px; }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html ng-app="singlePageTemplate">
+
+<head>
+
+  <title>Single Page App</title> 
+  <meta name="description" content="[DESCRIPTION]"> 
+  <meta name="keywords" content="[KEYWORDS]"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=0">
+
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" ></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/main.js"></script>
+</head>
+
+<body ng-controller="mainController">
+	<div class="background">
+		<nav class="navbar main-nav">
+		  <div class="container">
+			 <!-- Brand and toggle get grouped for better mobile display -->
+			 <div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+				  <span class="sr-only">Toggle navigation</span>
+					<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true" style="color:rgb(240,240,240)"</span>
+				</button>
+			 </div>
+			 <!-- Collect the nav links, forms, and other content for toggling -->
+			 <div class="collapse navbar-collapse" id="navbar-collapse">
+				<ul class="nav navbar-nav">
+				  <li><a href="#">Home</a></li>
+				  <li><a href="#about">About</a></li>
+				  <li><a href="#contact">Contact</a></li>
+				</ul>
+			 </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container -->
+		</nav>
+
+	  <div class="content">
+	  
+	    <div ng-view></div>
+	    
+	  </div>
+  </div><!-- /.background -->
+
+  <footer>
+
+  </footer> 
+
+</body>
+
+</html>

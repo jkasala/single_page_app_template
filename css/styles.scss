@@ -1,0 +1,46 @@
+$off-white: rgb(240,240,240);
+$link-colour: rgb(255,20,130);
+
+.background {
+	width:100%;
+	height:800px;
+	max-width:2000px;
+	background-image: url('../images/loading_spinner.gif');
+	background-repeat: no-repeat;
+	background-position: center center; 
+}
+
+.main-nav {
+	background-color: rgba(150,150,150,0.18);
+	font-size:13pt;
+
+	a {
+		color:$off-white;
+	}
+
+	li :hover {
+		background-color:transparent !important;
+		color: $link-colour;
+	}
+
+	li :active, li :focus {
+		background-color:transparent !important;
+	} 
+
+}
+
+
+.content {
+	color:$off-white;
+	padding: 50px 10px 50px 10px;
+	font-size:13pt;
+	display:none;
+
+	a {
+		color:$link-colour;
+	}
+
+	p {
+		padding:20px;
+	}
+}

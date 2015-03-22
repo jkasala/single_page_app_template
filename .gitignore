@@ -1,0 +1,11 @@
+# Sass cache
+*.scssc
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Batch files
+*.bat
