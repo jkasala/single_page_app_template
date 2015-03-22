@@ -16,7 +16,7 @@
 			})
 
 			.when('/usage', {
-				templateUrl : 'pages/contact.html',
+				templateUrl : 'pages/usage.html',
 				controller  : 'usageController'
 			});
 	});
