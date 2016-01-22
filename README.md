@@ -13,4 +13,4 @@ http://jeremykasala.com/pages/spa_template
 git clone https://github.com/jkasala/testimonials.git 
 ```
 
-- The files must be served on a web server, otherwise Angular will throw an error.  Then simply open index.html with your browser.
+- Even though there are only javascript and HTML files involved, they must still be served on a web server because otherwise Angular will give you an error.  Once place on your server, you can open index.html with your browser.
