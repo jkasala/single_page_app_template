@@ -3,7 +3,7 @@ This is a starting point for website building using Angular.js
 
 ##Demo
 
-http://jeremykasala.com/pages/spa_template
+http://jeremykasala.com/spa
 
 ##Usage
 
