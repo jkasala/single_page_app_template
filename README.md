@@ -10,7 +10,7 @@ http://jeremykasala.com/pages/spa_template
 - Clone the repo: 
 
 ```sh 
-git clone https://github.com/jkasala/testimonials.git 
+https://github.com/jkasala/single_page_app_template.git
 ```
 
 - Even though there are only javascript and HTML files here, they must still be served on a web server because otherwise Angular will give you an error.  Any server will do, and once the files are on there you can open index.html with your browser.
