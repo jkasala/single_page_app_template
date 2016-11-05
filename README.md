@@ -13,4 +13,4 @@ http://jeremykasala.com/spa
 https://github.com/jkasala/single_page_app_template.git
 ```
 
-- Even though there are only javascript and HTML files here, they must still be served on a web server because otherwise Angular will give you an error.  Any server will do, and once the files are on there you can open index.html with your browser.
+- There are only HTML and Javascript files here but you need an HTTP server to host them - Angular will give you an error if you try to open index.html in your browser otherwise.
